@@ -3,20 +3,32 @@
     max-width: auto;
     max-height: auto;
     box-sizing: border-box;
-    font-family: "Julius Sans One", sans-serif;
 }
 
+/*
+font-family: "Julius Sans One", sans-serif;
+font-family: 'Source Code Pro', monospace;
+*/
 body {
-    background-color: azure;
+    background-color:tan;
 }
 
 .quotes {
-    background-color: snow;
+    background-color: bisque;
     border: #000000 1px solid;
     text-align: center;
     justify-content: space-evenly;
     font-size: larger;
     font-weight: bolder;
+    font-family: "Julius Sans One", sans-serif;
+}
+
+.quotes h3{
+  font-family: 'Source Code Pro', monospace;
+}
+
+.slider-H2{
+  font-family: 'Source Code Pro', monospace;
 }
 
 /* Slideshow container */
@@ -36,20 +48,27 @@ body {
 
 .img-1 {
     width: 100%;
-    border: red solid 2px;
+    border: rgb(0, 0, 0) solid 2px;
 }
 .img-2 {
     width: 100%;
-    border: red solid 2px;
+    border: rgb(0, 0, 0) solid 2px;
 }
 .img-3 {
     width: 100%;
-    border: red solid 2px;
+    border: rgb(0, 0, 0) solid 2px;
 }
 
 .slider-text{
     padding: 20px;
     background-color: beige;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.slider-fn{
+  font-family: 'Julius Sans One', sans-serif;
+  background-color: beige;
+  padding: 5px;
 }
 
 /* Next & previous buttons */
