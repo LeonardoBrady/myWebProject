@@ -43,11 +43,14 @@
     
     <div class="img-slider-elem" id="img-slider-elem">
 
-        <p class="img-slider-1">
+        <div class="img-sliders">
             <h3>
                 Mammal Tree Image form <a href="https://research.amnh.org/paleontology/perissodactyl/node/55">American Museum Of Natural History</a>
             </h3>
             <img src="./photos/mammal_tree2.png" alt="Mammal tree" class="img-1">
+            <div class="numberText">
+                1 / 3
+            </div>
             <p> Two cladograms derived from different scientific interpretations of evolutionary relationships of mammals based on morphological and and genetic characters of species.  Trends in Ecology and Evolution. 19: 430-438.
 
                 The left hand cladogram is based on evidence from morphology, while the right hand one is based on evidence from genetics.
@@ -58,13 +61,16 @@
                      Although we will never know for certain what the true evolutionary tree of any particular clade is the correct one,
                       probability suggests that as more and more evidence is collected the resulting cladograms are closer and closer to the truth.
             </p>
-        </p>
+        </div>
         
-        <p class="img-slider-2">
+        <div class="img-sliders">
             <h3>
                 The Human Lineage
             </h3>
             <img src="./photos/human-lineage-hominins-members-lineages-apes-interpretations.webp" alt="Photo of asutralopithecus evoliving into homo sapien" class="img-2">
+            <div class="numberText">
+                2 / 3
+            </div>
                 <h3>
                     The evolution of humans from Australopithecus to Homo sapiens unfolded over millions of years and is characterized by distinct stages: 
                 </h3>
@@ -90,7 +96,8 @@
                     <li>
                         <strong>Archaic Homo sapiens (500,000 to 200,000 years ago):</strong>
                         <br>
-                        Various hominin species in this category displayed a mix of Homo erectus and modern Homo sapiens characteristics, including advancements in tool use and social structures.
+                        Various hominin species in this category displayed a mix of Homo erectus and modern Homo sapiens characteristics,
+                         including advancements in tool use and social structures.
                     </li>
                     <br>
                     <li>
@@ -102,18 +109,22 @@
                 </ol>
                 <br>
                 <h3>Extra info</h3>
-                <p class="human-evolution-fn">
+                <p class="slider-2fn">
                      Key drivers of human evolution included environmental changes, the development of tools and technology, and social factors such as cooperation and communication.
                      The process involved gradual changes in populations over extended periods, shaped by natural selection favoring traits conducive to survival and reproduction.
                       Ongoing research continues to refine our understanding of the specific details and timeline of human evolution. 
                 </p>
-        </p>
+                <br>
+            </div>
         <br>
-        <p class="img-slider-3">
+        <div class="img-sliders">
             <h3>
                 5 facts why humans have thumbs!
             </h3>
             <img src="./photos/evoOfHumanHand.jpg" alt="#" class="img-3">
+            <div class="numberText">
+                3 / 3
+            </div>
             <ul>
                 <li>
                     <strong>Tool Use and Manipulation:</strong>
@@ -154,13 +165,21 @@
                       This physical capability might have contributed to the development of complex social structures and cooperation among early human groups.
                 </li>
                 <br>
-                <p class="evo-hand-fn">The evolution of opposable thumbs in humans represents a crucial adaptation that has had profound implications for our ability to interact with the environment, create and use tools, and engage in complex social behaviors.</p>
+                <p class="slider-3fn">
+                    The evolution of opposable thumbs in humans represents a crucial adaptation that has had profound implications for our ability to interact with the environment,
+                     create and use tools, and engage in complex social behaviors.
+                </p>
             </ul>
 
-        </p>
+        </div>
         <div class="slider-btns">
-            <button class="progBtn" id="next">Next</button>
-            <button class="progBtn" id="previous">Previous</button>
+            <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+            <a class="next" onclick="plusSlides(1)">&#10095</a>
+        </div>
+        <div style="text-align: center;">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
         </div>
     </div> 
 </div>
