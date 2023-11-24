@@ -4,6 +4,10 @@
     max-height: 100vh;
 }
 
+.img-slider-elem img {
+    max-width: 800px;
+    max-height: 600px;
+}
 
 /*
 .header {}
